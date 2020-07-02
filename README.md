@@ -14,7 +14,7 @@ services:
             - RSYNC_CRONTAB=* * * * * # Time to execute http://crontab.guru
             - RSYNC_HOST_IP=192.168.0.1 # Host IP
             - RSYNC_HOST_FOLDER=/home/synced-data/ # Host Folder
-            - RSYNC_SSHPASS=sshpass -p '123456' # Optional 
+            - RSYNC_SSHPASS=123456 # Optional 
         volumes:
             - ./logs:/home/rsyncron/logs:z
             - ./sync-data:/home/rsyncron/synced-data:z
