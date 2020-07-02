@@ -20,7 +20,7 @@ services:
             - ./sync-data:/home/rsyncron/synced-data:z
 ```
 
-## Variables
+## Default Variables
 
 RSYNC_CRONTAB=""
 RSYNC_REMOTE_USER="root"
